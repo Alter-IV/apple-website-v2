@@ -66,22 +66,69 @@ header ul li a:hover {
     padding: 0 0 15px;
 }
 
-
-.main-internal-wrapper {
+.highlight {
+    height: 35.625em;
     text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 20px;
+    margin-bottom: 0.8em;
 }
+
+
+.first {
+    background-image: url("../images/the-first-three-banners/double-iphone-banner.jpg");
+}
+
 
 .large-text1 {
-    color: black;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 3.3em;
+}
+.small-text1{
+    font-weight: 400;
     font-size: 1.5em;
 }
+.link ul li{
+    display: inline-block;
+    padding: 15px 0;
+    margin-top: 1em;
+    margin-left: 0.8em;
+}
 
+.link ul li {
+    list-style: none;
+}
 
+.link ul li a {
+    border: 0.8em solid #0071e3;
+    border-width: 1px;
+    padding: 0.72em;
+    text-decoration: none;
+    border-radius: 61.25em;
+    background: #0071e3;
+    color: rgb(255, 255, 255);
+}
+.link .blue {
+    color: #0071e3;
+    background: rgb(255, 255, 255);
 
+}
+.link .blue:hover {
+    background: #0071e3;
+    color: rgb(255, 255, 255);
+}
 
+.second {
+    background-image: url("../images/the-first-three-banners/fathers-day-banner.jpg");
 
+}
 
+.third {
+    background-image: url("../images/the-first-three-banners/mac-and-ipad-banner.jpg");
+
+}
 
 
 
